@@ -1,0 +1,94 @@
+@import url("https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap");
+img {
+  max-width: 100%;
+}
+
+body {
+  margin: 1% auto;
+  background-color: rgba(139, 140, 223, 0.295);
+}
+
+.page-container {
+  margin: 0 auto 10% auto;
+}
+
+.logo-container {
+  max-width: 100%;
+  margin: 2% auto;
+  text-align: center;
+}
+
+.logo-container > img {
+  max-width: 20%;
+}
+
+.menu-container {
+  max-width: 100%;
+  margin: 0 0 0 0;
+  background-color: rgba(rgb(13, 0, 0), rgb(0, 0, 0), rgb(241, 241, 241), 1);
+  padding: 1px;
+}
+
+.menu-container > ul {
+  display: flex;
+  list-style: none;
+  max-width: 100%;
+  justify-content: center;
+}
+
+.menu-container > ul > li {
+  display: block;
+  margin: 0 2%;
+  font-size: 1.5rem;
+  color: #fff;
+  background-color: black;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+.menu-container > ul > li > a {
+  font-size: 1.5rem;
+  color: #fff;
+  text-decoration: none;
+}
+
+.grid-container {
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 1rem;
+  max-width: 100%;
+}
+
+.grid-item {
+  border: 1px dashed black;
+  width: 200px;
+  height: 200px;
+  margin: 0 auto;
+  padding: 4%;
+}
+
+.icon-container {
+  display: block;
+  height: 80%;
+}
+
+.description-container {
+  text-align: center;
+  max-height: max-content;
+}
+
+.description-container > .block-description {
+  font-family: "Libre Baskerville", Helvetica, sans-serif;
+  text-decoration: none;
+}
+
+.description-container > .block-description:hover {
+  text-decoration: underline;
+}
+
+.big-icon-fix {
+  display: block;
+  max-width: 50%;
+  margin: 0 auto;
+}
